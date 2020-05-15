@@ -1,0 +1,113 @@
+
+  /*style body*/ 
+ body
+ {
+    max-width: 90%;
+    margin: 30%;
+ } 
+
+  /*style paragraphe*/
+p, li
+{
+    text-align: justify;
+    font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+    color: darkslategray;
+    list-style-type: none;
+}
+
+    /*style lien*/
+a 
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+    /*style survol*/
+a:hover
+{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;   
+}
+
+    /*style lien visité*/
+a:visited
+{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+    /*style citation*/
+.citation
+{
+    width: 50%;
+    margin-left: 25%;
+    font-size: 160%;
+    background-color: gainsboro;
+    border-left: 3px solid brown;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+    /*style figure*/
+figure 
+{
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 500px;
+    margin: auto;
+}
+
+    /*style image*/
+img 
+{
+    max-width: 500px;
+    max-height: 500px;
+    border: thin solid;
+    padding: 5px;
+
+}
+
+    /*style légende*/
+caption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+    /*style broque bien ou mal je ne sais pas*/
+blockquote p 
+{
+    padding: 20px;
+    background: #eee;
+    border:1px solid;
+    text-align: center;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td 
+{
+    border: 1px solid #333;
+}
+th
+{
+    border: 1px solid;
+    background-color: burlywood;
+}
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
