@@ -100,8 +100,8 @@ figure
     /*style image*/
 img 
 {
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 400px;
+    max-height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto
@@ -182,25 +182,56 @@ tr:nth-child(odd)
 .pousse-bien
 {
     background-image: url(https://raw.githubusercontent.com/becodeorg/LIE-Jepsen-3.20/master/01-the-field/03-html-css/1-initiation/progressive-enhancement/bien.png?token=AORI55VOM53XEKRPPD6DLXK6ZOJJA);
-    padding-right: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-repeat: no-repeat;
-    background-position: right;
+    background-size: 5%;
+    background-position: 43%;
+
 }
 
 .pousse-mal
 {
     background-image: url(https://raw.githubusercontent.com/becodeorg/LIE-Jepsen-3.20/master/01-the-field/03-html-css/1-initiation/progressive-enhancement/mal.png?token=AORI55UVQIF5ICSLLKR5I526ZOJMS);
-    padding-right: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
     background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: 45%;
 }
 
 
 .cat
 {
     background-image: url(https://raw.githubusercontent.com/becodeorg/LIE-Jepsen-3.20/master/01-the-field/03-html-css/1-initiation/progressive-enhancement/chat.png?token=AORI55X6LTYWRSNEVIVHJVS6ZOJOK);
-    padding-right: 50%;
     background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-size: 5%;
+    background-position: 50%;
 }
+
+.gens
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*float*/
+.fl
+{
+    float: left;
+    margin: 20px;
+    position: relative;
+}
+ .fr
+ {
+     float: right;
+     margin: 20px;
+
+     
+ }
 
 .conclusion
 {
