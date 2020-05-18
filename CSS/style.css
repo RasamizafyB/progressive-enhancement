@@ -122,18 +122,19 @@ table
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
+
 }
 
-.titre-tableau
-{
-    background-color: blue;
-}
 
 
 td 
 {
     border: 1px solid #333;
-    color: white;
+    color:black;
+    width: 500px;
+    height: 100px; 
+    text-align: center; 
+
 }
 th
 {
@@ -141,6 +142,9 @@ th
     background-color: burlywood;
     color:black;
     font-style: unset;
+    height: 100px; 
+
+
 }
 tfoot {
     background-color: #333;
@@ -157,4 +161,48 @@ tfoot {
 {
     text-transform: uppercase;
     color: red;
+}
+
+/*pied de page*/
+footer
+{
+    color: gray;
+}
+
+tr:nth-child(even) 
+{
+    background: gray;
+}
+tr:nth-child(odd)
+{
+    background:white;
+}
+
+/*pousse*/
+.pousse-bien
+{
+    background-image: url(https://raw.githubusercontent.com/becodeorg/LIE-Jepsen-3.20/master/01-the-field/03-html-css/1-initiation/progressive-enhancement/bien.png?token=AORI55VOM53XEKRPPD6DLXK6ZOJJA);
+    padding-right: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.pousse-mal
+{
+    background-image: url(https://raw.githubusercontent.com/becodeorg/LIE-Jepsen-3.20/master/01-the-field/03-html-css/1-initiation/progressive-enhancement/mal.png?token=AORI55UVQIF5ICSLLKR5I526ZOJMS);
+    padding-right: 50%;
+    background-repeat: no-repeat;
+}
+
+
+.cat
+{
+    background-image: url(https://raw.githubusercontent.com/becodeorg/LIE-Jepsen-3.20/master/01-the-field/03-html-css/1-initiation/progressive-enhancement/chat.png?token=AORI55X6LTYWRSNEVIVHJVS6ZOJOK);
+    padding-right: 50%;
+    background-repeat: no-repeat;
+}
+
+.conclusion
+{
+    font-style: unset;
 }
